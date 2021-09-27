@@ -15,7 +15,7 @@ study = StudyDefinition(
     
     population=patients.satisfying(
       """
-        age>=60
+        age>=70
         AND
         NOT has_died
         AND
